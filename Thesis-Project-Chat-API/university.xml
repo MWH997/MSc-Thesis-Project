@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<!-- Setting Default Values -->
+<think>
+    <set var="name">unknown</set>
+    <set var="degree">unknown</set>
+    <set var="research">unknown</set>
+    <set var="nationality">unknown</set>
+</think>
+
+<!-- Introduction Pattern -->
+<category>
+    <pattern>HELLO</pattern>
+    <srai>GREETINGS</srai>
+</category>
+<category>
+    <pattern>HI</pattern>
+    <srai>GREETINGS</srai>
+</category>
+<category>
+    <pattern>HEY</pattern>
+    <srai>GREETINGS</srai>
+</category>
+<category>
+    <pattern>GREETINGS</pattern>
+    <template>Greetings! What would you like to know about the Data Science Department at Prestigia University?</template>
+</category>
+
+<!-- Name Retention -->
+<category>
+    <pattern>MY NAME IS *</pattern>
+    <template>Nice to meet you, <set var="name"><star/></set>. How can I assist you further?</template>
+</category>
+<category>
+    <pattern>I AM *</pattern>
+    <template>Pleasure to meet you, <set var="name"><star/></set>. What information are you seeking today?</template>
+</category>
+<category>
+    <pattern>CALL ME *</pattern>
+    <template>Alright, <set var="name"><star/></set>. How can I help you further?</template>
+</category>
+
+<!-- Address with Name -->
+<category>
+    <pattern>TELL ME ABOUT *</pattern>
+    <template>
+        <condition name="name">
+            <li value="unknown">The Data Science Department at Prestigia University is a pioneering centre of excellence in the UK.</li>
+            <li><get var="name"/>, the Data Science Department at Prestigia University is a pioneering centre of excellence in the UK.</li>
+        </condition>
+    </template>
+</category>
+
+<!-- Previous Degree Retention -->
+<category>
+    <pattern>I HAVE A DEGREE IN *</pattern>
+    <template>Noted, you have a degree in <set var="degree"><star/></set>. Based on this, I can help recommend a suitable course for you. Would you like to proceed?</template>
+</category>
+
+<!-- Research Experience -->
+<category>
+    <pattern>I HAVE RESEARCH EXPERIENCE IN *</pattern>
+    <template>Thank you for sharing, <get var="name"/>. Your research experience in <set var="research"><star/></set> can be valuable for our courses. Let me help you find the best fit.</template>
+</category>
+<category>
+    <pattern>MY RESEARCH IS IN *</pattern>
+    <template>That's impressive, <get var="name"/>. Research in <set var="research"><star/></set> could complement our programs. Let's find the right one for you.</template>
+</category>
+
+<!-- Nationality -->
+<category>
+    <pattern>I AM FROM *</pattern>
+    <template>Got it, <get var="name"/>. So, you're an <set var="nationality">international</set> student. Let me provide information tailored to international students.</template>
+</category>
+<category>
+    <pattern>I'M BASED IN *</pattern>
+    <template>Noted, <get var="name"/>. You're coming from <star/>. Would you need information for international students?</template>
+</category>
+<category>
+    <pattern>I AM A NATIONAL STUDENT</pattern>
+    <template>Understood, <get var="name"/>. I'll provide information tailored to national students. <set var="nationality">national</set></template>
+</category>
+
+<!-- Sending to Relevant Application Page -->
+<category>
+    <pattern>WHERE CAN I APPLY</pattern>
+    <srai>HOW DO I APPLY</srai>
+</category>
+<category>
+    <pattern>HOW DO I APPLY</pattern>
+    <template>
+        <condition name="nationality">
+            <li value="national"><get var="name"/>, you can apply on our [National Admissions Page](#).</li>
+            <li value="international"><get var="name"/>, you should apply via our [International Admissions Page](#).</li>
+            <li>Could you clarify if you're a national or international student?</li>
+        </condition>
+    </template>
+</category>
+
+<!-- Contact Details -->
+<category>
+    <pattern>CONTACT DETAILS</pattern>
+    <srai>UNIVERSITY CONTACT DETAILS</srai>
+</category>
+<category>
+    <pattern>HOW CAN I CONTACT YOU</pattern>
+    <srai>UNIVERSITY CONTACT DETAILS</srai>
+</category>
+<category>
+    <pattern>UNIVERSITY CONTACT DETAILS</pattern>
+    <template>You can contact the Admissions Office at Prestigia University through:
+        - Email: admissions@prestigia.ac.uk
+        - Phone: +44 1234 567890
+        We're here to help!
+    </template>
+</category>
+
+<!-- Parting -->
+<category>
+    <pattern>GOODBYE</pattern>
+    <template>Goodbye, <get var="name"/>. If you have more questions in the future, don't hesitate to ask. Best of luck with your academic pursuits!</template>
+</category>
+<category>
+    <pattern>SEE YOU</pattern>
+    <template>Take care, <get var="name"/>. Feel free to return if you have more queries. All the best!</template>
+</category>
+<category>
+    <pattern>BYE</pattern>
+    <template>Bye, <get var="name"/>. Reach out if you have more queries. Best wishes!</template>
+</category>
+
+<!-- Tuition Fees Details -->
+<category>
+    <pattern>HOW MUCH DOES IT COST</pattern>
+    <srai>TUITION FEE DETAILS</srai>
+</category>
+<category>
+    <pattern>TUITION FEES</pattern>
+    <srai>TUITION FEE DETAILS</srai>
+</category>
+<category>
+    <pattern>COST OF PROGRAMS</pattern>
+    <srai>TUITION FEE DETAILS</srai>
+</category>
+<category>
+    <pattern>_ *TUITION FEES*</pattern>
+    <srai>TUITION FEE DETAILS</srai>
+</category>
+<category>
+    <pattern>TUITION FEE DETAILS</pattern>
+    <template>Tuition fees for the 2023-2024 Academic Year are: Domestic undergraduates: £9,250 per year. International undergraduates: £20,000 per year. Note: Postgraduate course fees differ.</template>
+</category>
+
+<!-- Added Patterns -->
+<category>
+    <pattern>_* FACILITY *</pattern>
+    <template>We offer top-notch facilities including state-of-the-art computer labs, research centers, and collaborative workspaces. Would you like more detailed information?</template>
+</category>
+
+<category>
+    <pattern>* COURSE *</pattern>
+    <template>We offer various undergraduate and postgraduate courses in Data Science, such as Machine Learning, Artificial Intelligence, Data Analytics, and more. Would you like specific details about any course?</template>
+</category>
+
+<category>
+    <pattern>* SCHOLARSHIP *</pattern>
+    <template>Yes, Prestigia University provides scholarships based on academic achievement and financial need. There are also scholarships specifically for international students. Would you like details on eligibility and application?</template>
+</category>
+
+</aiml>

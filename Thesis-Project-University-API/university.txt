@@ -1,0 +1,26 @@
+**Data Science Department at Prestigia University**
+
+Welcome to the Data Science Department at Prestigia University, a pioneering center of excellence in the UK.
+
+### Key Features:
+- **Personalized Responses:** Interact with our intelligent system that remembers details like your name, degree, research interests, and nationality to provide tailored information.
+  
+- **Courses:** We offer a variety of undergraduate and postgraduate courses in Data Science, including specializations in Machine Learning, Artificial Intelligence, and Data Analytics.
+  
+- **State-of-the-art Facilities:** Benefit from our top-notch facilities, which include advanced computer labs, dedicated research centers, and collaborative workspaces.
+  
+- **Tuition Fees:** 
+  - Domestic undergraduates: £9,250 per year.
+  - International undergraduates: £20,000 per year.
+    *Please note that postgraduate course fees may vary.*
+  
+- **Scholarships:** Prestigia University proudly offers scholarships based on academic achievement and financial need. Special scholarships are also available for international students.
+  
+- **Admissions:** Depending on whether you are a national or international student, our admissions process is streamlined to cater to your specific needs. 
+
+- **Contact Us:** 
+  - **Email:** admissions@prestigia.ac.uk
+  - **Phone:** +44 1234 567890
+  
+We are always here to assist prospective students with their queries.
+Come, be a part of our vibrant community and take the first step towards a fulfilling career in Data Science!

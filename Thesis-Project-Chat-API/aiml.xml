@@ -1,0 +1,65 @@
+<aiml version="1.0.1" encoding="UTF-8">
+    <!--Greetings-->
+    <category>
+        <pattern>HI</pattern>
+        <template>Hello! How can I assist you today?</template>
+    </category>
+    <category>
+        <pattern>HELLO</pattern>
+        <template>Hi there! How may I help you?</template>
+    </category>
+    <category>
+        <pattern>HEY</pattern>
+        <template>Hey! How can I assist you?</template>
+    </category>
+    <category>
+        <pattern>WELCOME</pattern>
+        <template>Welcome to GigaNet Communications! How can I assist you today?</template>
+    </category>
+    
+    <!--Partings-->
+    <category>
+        <pattern>GOODBYE</pattern>
+        <template>Goodbye! Have a great day!</template>
+    </category>
+    <category>
+        <pattern>BYE</pattern>
+        <template>Bye! If you have any more questions, feel free to ask.</template>
+    </category>
+    <category>
+        <pattern>SEE YOU</pattern>
+        <template>See you later! Don't hesitate to reach out if you need further assistance.</template>
+    </category>
+    
+    <!--AIML tags-->
+    <category>
+        <pattern>PHONE</pattern>
+        <template>You can reach us at (123) 456-7890. How may I assist you?</template>
+    </category>
+    <category>
+        <pattern>EMAIL</pattern>
+        <template>You can email us at support@giganet.com. How can I help you?</template>
+    </category>
+    <category>
+        <pattern>WEBSITE</pattern>
+        <template>Our website is www.giganet.com. What can I do for you?</template>
+    </category>
+    
+    <!--Company Description-->
+    <category>
+        <pattern>COMPANY DESCRIPTION</pattern>
+        <template>At GigaNet Communications, we believe in the power of connectivity. As a leading internet provider, we have been bridging the digital divide and bringing seamless, lightning-fast connections to homes and businesses for over a decade. Join us today and experience the internet like never before. At GigaNet Communications, your online world awaits.</template>
+    </category>
+    
+    <!--Services-->
+    <category>
+        <pattern>SERVICES</pattern>
+        <template>Our services include high-speed broadband connections, dedicated business internet lines, 24/7 customer support, secure and private connections with VPN support, comprehensive internet coverage including rural areas, and Wi-Fi setup and support for homes and businesses. How can I assist you with our services?</template>
+    </category>
+    
+    <!--Packages & Prices-->
+    <category>
+        <pattern>PACKAGES</pattern>
+        <template>We offer different packages: Standard Package with a speed of up to 50 Mbps for $40/month, Premium Package with a speed of up to 150 Mbps for $60/month (which includes free VPN services), Business Package with a dedicated line of up to 500 Mbps for $200/month (with priority customer support and free on-site assistance), and Rural Connectivity Package with a speed of up to 30 Mbps for $30/month (tailored for regions with limited connectivity options). Is there anything specific you would like to know about our packages?</template>
+    </category>
+</aiml>

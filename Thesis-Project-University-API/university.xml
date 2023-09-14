@@ -1,0 +1,261 @@
+<aiml version="2.0">
+    <category>
+        <pattern>STARTUP</pattern>
+        <template>Setting default values.</template>
+    </category>
+
+    <category>
+        <pattern>HELLO</pattern>
+        <template>Greetings! What would you like to know about the Data Science Department at Prestigia University?</template>
+    </category>
+
+    <category>
+        <pattern>HI</pattern>
+        <template>Greetings! What would you like to know about the Data Science Department at Prestigia University?</template>
+    </category>
+
+    <category>
+        <pattern>HEY</pattern>
+        <template>Greetings! What would you like to know about the Data Science Department at Prestigia University?</template>
+    </category>
+
+    <category>
+        <pattern>GREETINGS</pattern>
+        <template>Greetings! What would you like to know about the Data Science Department at Prestigia University?</template>
+    </category>
+
+    <category>
+        <pattern>MY NAME IS *</pattern>
+        <template>Nice to meet you. How can I assist you further?</template>
+    </category>
+
+    <category>
+        <pattern>I AM *</pattern>
+        <template>Pleasure to meet you. What information are you seeking today?</template>
+    </category>
+
+    <category>
+        <pattern>CALL ME *</pattern>
+        <template>Alright. How can I help you further?</template>
+    </category>
+
+    <category>
+        <pattern>I HAVE A DEGREE IN *</pattern>
+        <template>Noted, you have a degree in. Based on this, I can help recommend a suitable course for you. Would you like to proceed?</template>
+    </category>
+
+    <category>
+        <pattern>I HAVE RESEARCH EXPERIENCE IN *</pattern>
+        <template>Thank you for sharing. Your research experience can be valuable for our courses. Let me help you find the best fit.</template>
+    </category>
+
+    <category>
+        <pattern>MY RESEARCH IS IN *</pattern>
+        <template>That's impressive. Research could complement our programs. Let's find the right one for you.</template>
+    </category>
+
+    <category>
+        <pattern>I AM FROM *</pattern>
+        <template>Got it. So, you're an international student. Let me provide information tailored to international students.</template>
+    </category>
+
+    <category>
+        <pattern>I'M BASED IN *</pattern>
+        <template>Noted. You're coming from. Would you need information for international students?</template>
+    </category>
+
+    <category>
+        <pattern>I AM A NATIONAL STUDENT</pattern>
+        <template>Understood. I'll provide information tailored to national students.</template>
+    </category>
+
+    <category>
+        <pattern>WHERE CAN I APPLY</pattern>
+        <template>You can apply on our Admissions Page.</template>
+    </category>
+
+    <category>
+        <pattern>HOW DO I APPLY</pattern>
+        <template>You can apply on our Admissions Page.</template>
+    </category>
+
+    <category>
+        <pattern>CONTACT DETAILS</pattern>
+        <template>You can contact the Admissions Office at Prestigia University through: Email: admissions@prestigia.ac.uk Phone: +44 1234 567890 We're here to help!</template>
+    </category>
+
+    <category>
+        <pattern>HOW CAN I CONTACT YOU</pattern>
+        <template>You can contact the Admissions Office at Prestigia University through: Email: admissions@prestigia.ac.uk Phone: +44 1234 567890 We're here to help!</template>
+    </category>
+
+    <category>
+        <pattern>GOODBYE</pattern>
+        <template>Goodbye. If you have more questions in the future, don't hesitate to ask. Best of luck with your academic pursuits!</template>
+    </category>
+
+    <category>
+        <pattern>SEE YOU</pattern>
+        <template>Take care. Feel free to return if you have more queries. All the best!</template>
+    </category>
+
+    <category>
+        <pattern>BYE</pattern>
+        <template>Bye. Reach out if you have more queries. Best wishes!</template>
+    </category>
+
+    <category>
+        <pattern>HOW MUCH DOES IT COST</pattern>
+        <template>Tuition fees for the 2023-2024 Academic Year are: Domestic undergraduates: £9,250 per year. International undergraduates: £20,000 per year. Note: Postgraduate course fees differ.</template>
+    </category>
+
+    <category>
+        <pattern>_ *TUITION FEES*</pattern>
+        <template>Tuition fees for the 2023-2024 Academic Year are: Domestic undergraduates: £9,250 per year. International undergraduates: £20,000 per year. Note: Postgraduate course fees differ.</template>
+    </category>
+
+    <category>
+        <pattern>_ *TUITION*</pattern>
+        <template>Tuition fees for the 2023-2024 Academic Year are: Domestic undergraduates: £9,250 per year. International undergraduates: £20,000 per year. Note: Postgraduate course fees differ.</template>
+    </category>
+
+    <category>
+        <pattern>_ *COST*</pattern>
+        <template>Tuition fees for the 2023-2024 Academic Year are: Domestic undergraduates: £9,250 per year. International undergraduates: £20,000 per year. Note: Postgraduate course fees differ.</template>
+    </category>
+
+    <category>
+        <pattern>TUITION FEES</pattern>
+        <template>Tuition fees for the 2023-2024 Academic Year are: Domestic undergraduates: £9,250 per year. International undergraduates: £20,000 per year. Note: Postgraduate course fees differ.</template>
+    </category>
+
+    <category>
+        <pattern>TUITION</pattern>
+        <template>Tuition fees for the 2023-2024 Academic Year are: Domestic undergraduates: £9,250 per year. International undergraduates: £20,000 per year. Note: Postgraduate course fees differ.</template>
+    </category>
+
+    <category>
+        <pattern>COST</pattern>
+        <template>Tuition fees for the 2023-2024 Academic Year are: Domestic undergraduates: £9,250 per year. International undergraduates: £20,000 per year. Note: Postgraduate course fees differ.</template>
+    </category>
+
+    <category>
+        <pattern>_* FACILITY *</pattern>
+        <template>We offer top-notch facilities including state-of-the-art computer labs, research centers, and collaborative workspaces. Would you like more detailed information?</template>
+    </category>
+
+    <category>
+        <pattern>FACILITY</pattern>
+        <template>We offer top-notch facilities including state-of-the-art computer labs, research centers, and collaborative workspaces. Would you like more detailed information?</template>
+    </category>
+
+    <category>
+        <pattern>FACILITIES</pattern>
+        <template>We offer top-notch facilities including state-of-the-art computer labs, research centers, and collaborative workspaces. Would you like more detailed information?</template>
+    </category>
+
+    <category>
+        <pattern>BENEFIT</pattern>
+        <template>We offer top-notch facilities including state-of-the-art computer labs, research centers, and collaborative workspaces. Would you like more detailed information?</template>
+    </category>
+
+    <category>
+        <pattern>BENEFITS</pattern>
+        <template>We offer top-notch facilities including state-of-the-art computer labs, research centers, and collaborative workspaces. Would you like more detailed information?</template>
+    </category>
+
+    <category>
+        <pattern>* COURSE *</pattern>
+        <template>We offer various undergraduate and postgraduate courses in Data Science, such as Machine Learning, Artificial Intelligence, Data Analytics, and more. Would you like specific details about any course?</template>
+    </category>
+
+    <category>
+        <pattern>COURSE</pattern>
+        <template>We offer various undergraduate and postgraduate courses in Data Science, such as Machine Learning, Artificial Intelligence, Data Analytics, and more. Would you like specific details about any course?</template>
+    </category>
+
+    <category>
+        <pattern>COURSES</pattern>
+        <template>We offer various undergraduate and postgraduate courses in Data Science, such as Machine Learning, Artificial Intelligence, Data Analytics, and more. Would you like specific details about any course?</template>
+    </category>
+
+    <category>
+        <pattern>SCHOLARSHIP</pattern>
+        <template>Yes, Prestigia University provides scholarships based on academic achievement and financial need. There are also scholarships specifically for international students. Would you like details on eligibility and application?</template>
+    </category>
+
+    <category>
+        <pattern>SCHOLARSHIPS</pattern>
+        <template>Yes, Prestigia University provides scholarships based on academic achievement and financial need. There are also scholarships specifically for international students. Would you like details on eligibility and application?</template>
+    </category>
+
+    <category>
+        <pattern>* SCHOLARSHIP *</pattern>
+        <template>Yes, Prestigia University provides scholarships based on academic achievement and financial need. There are also scholarships specifically for international students. Would you like details on eligibility and application?</template>
+    </category>
+
+    <category>
+        <pattern>UNIVERSITY CONTACT DETAILS</pattern>
+        <template>You can contact the Admissions Office at Prestigia University through:
+            - Email: admissions@prestigia.ac.uk
+            - Phone: +44 1234 567890
+            We're here to help!
+        </template>
+    </category>
+
+    <category>
+        <pattern>CONTACT DETAILS</pattern>
+        <template>You can contact the Admissions Office at Prestigia University through:
+            - Email: admissions@prestigia.ac.uk
+            - Phone: +44 1234 567890
+            We're here to help!
+        </template>
+    </category>
+
+    <category>
+        <pattern>CONTACT</pattern>
+        <template>You can contact the Admissions Office at Prestigia University through:
+            - Email: admissions@prestigia.ac.uk
+            - Phone: +44 1234 567890
+            We're here to help!
+        </template>
+    </category>
+
+    <category>
+        <pattern>EMAIL</pattern>
+        <template>You can contact the Admissions Office at Prestigia University through:
+            - Email: admissions@prestigia.ac.uk
+            - Phone: +44 1234 567890
+            We're here to help!
+        </template>
+    </category>
+
+    <category>
+        <pattern>PHONE</pattern>
+        <template>You can contact the Admissions Office at Prestigia University through:
+            - Email: admissions@prestigia.ac.uk
+            - Phone: +44 1234 567890
+            We're here to help!
+        </template>
+    </category>
+
+    <category>
+        <pattern>NUMBER</pattern>
+        <template>You can contact the Admissions Office at Prestigia University through:
+            - Email: admissions@prestigia.ac.uk
+            - Phone: +44 1234 567890
+            We're here to help!
+        </template>
+    </category>
+
+    <category>
+        <pattern>WEBSITE</pattern>
+        <template>You can contact the Admissions Office at Prestigia University through:
+            - Email: admissions@prestigia.ac.uk
+            - Phone: +44 1234 567890
+            - Website: prestigia.ac.uk
+            We're here to help!
+        </template>
+    </category>
+
+</aiml>
